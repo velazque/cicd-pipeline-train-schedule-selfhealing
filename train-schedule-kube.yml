@@ -35,9 +35,9 @@ spec:
         ports:
         - containerPort: 8080
         livenessProbe:
-        httpGet:
-          path: /
-          port: 8080
-        initialDelaySeconds: 15
-        timeoutSeconds: 1
-        periodSeconds: 10
+          httpGet:
+            path: /
+            port: 8080
+          initialDelaySeconds: 15
+          timeoutSeconds: 1
+          periodSeconds: 10
